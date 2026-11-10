@@ -4,4 +4,4 @@ Konrad Wawrzyniak - ogólnie zajmowałem się wyciągnięcem danych z HLTV i prz
 Andrii Piskun - Zajmuje się tworzeniem kodu algorytmu za pomocą Konrada również. NA tym etapie kod wyciąga danne z PostgreSQL i tworze zbalansowaną drużynę. Glówne zasady: Jeden najlepszy wynik na podstawie potrzeb. Pozycje graczy nie mogą powtarzać się. Każdy gracz ma swoją rolę. Drużyna ma być zbalansowaną na wszystkich(7) map.
 
 
-Tymur Popovych - Robiłem baze danych w POSTGRESQL.
+Tymur Popovych - Robię baze dannych przez pgAdmin4 w postgresql, bedą 4 bazy dannych (Mapy, Gracze, Pozycje i Gracz_Pozycja) związane między sobą. Także wyciągałem aktualne danne z HLTV do swojej cięści bazy dannych (11-15 drużyny). 
