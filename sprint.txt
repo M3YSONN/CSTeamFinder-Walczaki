@@ -1,0 +1,7 @@
+Konrad Wawrzyniak - ogólnie zajmowałem się wyciągnięcem danych z HLTV i przeniesieniem ich do testowej bazy danych, żeby ludzi w projekcie mogłi bez problemów przenieść te już sprawdzone i przygotowywane danne w Baze Dannych(PostgreSQL)
+
+
+Andrii Piskun - Zajmuje się tworzeniem kodu algorytmu za pomocą Konrada również. NA tym etapie kod wyciąga danne z PostgreSQL i tworze zbalansowaną drużynę. Glówne zasady: Jeden najlepszy wynik na podstawie potrzeb. Pozycje graczy nie mogą powtarzać się. Każdy gracz ma swoją rolę. Drużyna ma być zbalansowaną na wszystkich(7) map.
+
+
+Tymur Popovych - Robiłem baze danych w POSTGRESQL.
