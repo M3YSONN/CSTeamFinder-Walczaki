@@ -34,13 +34,20 @@ INSERT INTO MAPY (id_mapy, nazwa_mapy) VALUES
 ON CONFLICT (id_mapy) DO NOTHING;
 
 INSERT INTO POZYCJE (id_pozycji, id_mapy, nazwa_pozycji) VALUES
-(1, 1, 'B Anchor'), (2, 1, 'A Anchor'), (3, 2, 'Pit'), (4, 3, 'Ramp'), (5, 4, 'Monster'),
-(6, 5, 'A Ramp'), (7, 6, 'Cave'), (8, 7, 'Water'), (9, 1, 'Mid'), (10, 2, 'Apartments'),
-(11, 3, 'Outside'), (12, 4, 'Toilets'), (13, 5, 'B Site'), (14, 6, 'Donut'), (15, 7, 'B Site'),
-(16, 1, 'Connector'), (17, 2, 'Banana'), (18, 3, 'Secret'), (19, 4, 'Connector'), (20, 5, 'Mid'),
-(21, 6, 'Mid'), (22, 7, 'Mid'), (23, 1, 'Palace'), (24, 2, 'Boiler'), (25, 3, 'Hut'),
-(26, 4, 'B Short'), (27, 5, 'A Site'), (28, 6, 'B Site'), (29, 7, 'A Site'), (30, 1, 'A Site'),
-(31, 2, 'B Site'), (32, 3, 'Heaven'), (33, 4, 'A Site'), (34, 5, 'CT Spawn'), (35, 6, 'CT Spawn')
+-- 1: Mirage
+(1, 1, 'B Anchor'), (2, 1, 'A Anchor'), (9, 1, 'Mid'), (16, 1, 'Connector'), (23, 1, 'Palace'), (30, 1, 'A Site'),
+-- 2: Inferno
+(3, 2, 'Pit'), (10, 2, 'Apartments'), (17, 2, 'Banana'), (24, 2, 'Boiler'), (31, 2, 'B Site'),
+-- 3: Nuke
+(4, 3, 'Ramp'), (11, 3, 'Outside'), (18, 3, 'Secret'), (25, 3, 'Hut'), (32, 3, 'Heaven'),
+-- 4: Overpass
+(5, 4, 'Monster'), (12, 4, 'Toilets'), (19, 4, 'Connector'), (26, 4, 'B Short'), (33, 4, 'A Site'),
+-- 5: Vertigo
+(6, 5, 'A Ramp'), (13, 5, 'B Site'), (20, 5, 'Mid'), (27, 5, 'A Site'), (34, 5, 'CT Spawn'),
+-- 6: Ancient
+(7, 6, 'Cave'), (14, 6, 'Donut'), (21, 6, 'Mid'), (28, 6, 'B Site'), (35, 6, 'CT Spawn'),
+-- 7: Anubis
+(8, 7, 'Water'), (15, 7, 'B Site'), (22, 7, 'Mid'), (29, 7, 'A Site')
 ON CONFLICT (id_pozycji) DO NOTHING;
 
 INSERT INTO GRACZE (id_gracza, imie, nazwisko, nick, wiek, kraj, rating, rola) VALUES
