@@ -1,2 +1,0 @@
-psycopg2-binary>=2.9
-# pymysql>=1.1   # tylko dla MySQL/MariaDB
