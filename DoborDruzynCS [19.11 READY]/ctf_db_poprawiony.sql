@@ -153,6 +153,32 @@ INSERT INTO GRACZE (id_gracza, imie, nazwisko, nick, wiek, kraj, rating, rola) V
 (73, 'Andrey', 'Yasinskiy', 'BELCHONOKK', 22, 'Russia', 1.02, 'Rifler'),
 (74, 'Petr', 'Bolyshev', 'fame', 23, 'Russia', 1.06, 'Rifler'),
 (75, 'Artem', 'Kharitonov', 'ArtFr0st', 24, 'Russia', 1.14, 'Sniper')
+
+(76, 'Keith', 'Markovic', 'NAF', 28, 'Canada', 1.16, 'Rifler')
+(77, 'Jonathan', 'Jablonowski', 'EliGE', 29, 'USA', 1.15, 'Rifler')
+(78, 'Mario ', 'Samayoa', 'malbsMd', 24, 'Guatemala', 1.08, 'Rifler')
+(79, 'Johnny', 'Theodosiou', 'JT', 27, 'South Africa', 0.93, 'IGL')
+(80, 'Georgi', 'Mitev', 'Jorkot', 17, 'Bulgaria', 1.03, 'Sniper')
+(81, 'Nicolai', 'Reedtz', 'device', 31, 'Dania', 1.15, 'Sniper')
+(82, 'Håvard', 'Nygaard', 'rain', 32, 'Norway', 1.15, 'Rifler')
+(83, 'Jack von', 'Spreckelsen', 'Gizmy', 22, 'Great Britan', 0.98, 'IGL')
+(84, 'William', 'Kjærsgaard', 'sirah', 20, 'Dania', 1.09, 'Rifler')
+(85, 'Alex Nyholm', 'Sundgren', 'poiii', 20, 'Dania', 1.14, 'Rifler')
+(86, 'Ludvig', 'Brolin', 'Brollan', 24, 'Sweden', 1.16, 'Rifler')
+(87, 'Linus', 'Bergman', 'nilo', 21, 'Sweden', 1.13, 'Rifler')
+(88, 'Tim', 'Ångström', 'susp', 21, 'Sweden', 1.08, 'Rifler')
+(89, 'Antonio', 'Martinez', 'MartinezSa', 25, 'Spain', 1.09, 'Sniper')
+(90, 'Christoffer', 'Storgaard', 'Chr1zN', 20, 'Dania', 1.05, 'IGL')
+(91, 'Love', 'Smidebrant', 'phzy', 24, 'Sweden', 1.11, 'Sniper')
+(92, 'Kamil', 'Szkaradek', 'siuhy', 24, 'Poland', 0.89, 'IGL')
+(93, 'Jakob', 'Nygaard', 'jabbi', 23, 'Dania', 1.05, 'Rifler')
+(94, 'Victor', 'Staehr', 'Staehr', 22, 'Dania', 1.22, 'Rifler')
+(95, 'Gytis', 'Glušauskas', 'ryu', 22, 'Lathuania', 1.19, 'Rifler')
+(96, 'Linus', 'Holtäng', 'LNZ', 24, 'Sweden', 0.92, 'IGL')
+(97, 'Lucas', 'Soares', 'nqz', 21, 'Brazil', 1.05, 'Sniper')
+(98, 'Felipe', 'Yuji', 'insani', 22, 'Brazil', 1.24, 'Rifler')
+(99, 'Carlos', 'Eduardo', 'venomzera', 22, 'Brazil', 1.03, 'Rifler')
+(100, 'Tomas', 'Corna', 'tomaszin', 22, 'Argentina', 1.01, 'Rifler')   
 ON CONFLICT (id_gracza) DO NOTHING;
 
 INSERT INTO GRACZ_POZYCJE (id_gracza, id_pozycji) VALUES
