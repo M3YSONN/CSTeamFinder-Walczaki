@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import random
 import statistics
+import time
 from itertools import combinations
 
 from db import Dane
@@ -110,6 +111,8 @@ def algorytm_genetyczny(ocena: Ocena, liczba_druzyn: int, *, populacja: int = 15
                         pokolenia: int = 800, p_krzyzowania: float = 0.9,
                         p_mutacji: float = 0.5, elita: int = 2, turniej: int = 3,
                         cierpliwosc: int = 250, seed: int | None = None) -> tuple[list[list[int]], list[float]]:
+    start_czasu = time.perf_counter()
+
     rng = random.Random(seed)
     n = len(ocena.rating)
     R = ocena.rozmiar
@@ -173,5 +176,8 @@ def algorytm_genetyczny(ocena: Ocena, liczba_druzyn: int, *, populacja: int = 15
 
         if bez_poprawy >= cierpliwosc:
             break
+
+    czas_wykonania = time.perf_counter() - start_czasu
+    print(f"Czas wykonania pracy algorytmem:  {czas_wykonania:.4f} sek.")
 
     return dziel(najlepszy), historia
