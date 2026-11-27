@@ -1,7 +1,15 @@
-Konrad Wawrzyniak - ogólnie zajmowałem się wyciągnięcem danych z HLTV i przeniesieniem ich do testowej bazy danych, żeby ludzi w projekcie mogłi bez problemów przenieść te już sprawdzone i przygotowywane danne w Baze Dannych(PostgreSQL)
+kw
+- ogólnie zajmowałem się wyciągnięcem danych z HLTV i przeniesieniem ich do testowej bazy danych, żeby bez problemów przenieść te już sprawdzone i przygotowywane dane w bazie danych(PostgreSQL)
+- ustalenie zasad bazy danych i algorytmu
+- prezentacja, dokumentacja pl i en
 
 
-Andrii Piskun - Zajmuje się tworzeniem kodu algorytmu za pomocą Konrada również. NA tym etapie kod wyciąga danne z PostgreSQL i tworze zbalansowaną drużynę. Glówne zasady: Jeden najlepszy wynik na podstawie potrzeb. Pozycje graczy nie mogą powtarzać się. Każdy gracz ma swoją rolę. Drużyna ma być zbalansowaną na wszystkich(7) map.
+Andrii Piskun 
+- zajmuje się tworzeniem kodu algorytmu z pomocą Konrada również. Na tym etapie kod wyciąga dane z PostgreSQL i tworze zbalansowaną drużynę. Glówne zasady: Jeden najlepszy wynik na podstawie potrzeb. Pozycje graczy nie mogą powtarzać się. Każdy gracz ma swoją rolę. Drużyna ma być zbalansowaną na wszystkich(7) map.
+- algorytm doboru wężykiem
+- dodanie mierzenia czasu wykonywania algorytmu genetycznego
 
 
-Tymur Popovych - Robię baze dannych przez pgAdmin4 w postgresql, bedą 4 bazy dannych (Mapy, Gracze, Pozycje i Gracz_Pozycja) związane między sobą. Także wyciągałem aktualne danne z HLTV do swojej cięści bazy dannych (11-15 drużyny). 
+Tymur Popovych 
+- robię baze danych przez pgAdmin4 w postgresql, bedą 4 bazy dannych (Mapy, Gracze, Pozycje i Gracz_Pozycja) związane między sobą. Także wyciągałem aktualne dane z HLTV do swojej cięści bazy dannych (11-15 drużyny). 
+- stworzona baza danych
